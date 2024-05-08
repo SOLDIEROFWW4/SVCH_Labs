@@ -1,0 +1,166 @@
+.app {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .header-link {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .header-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 320px) {
+    .header-title {
+      font-size: 20px;
+    }
+  
+    .header-link {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+  
+  header, footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .property-list {
+    margin: 20px 0;
+    background-color: #e8f4f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonials {
+    margin: 20px 0;
+    background-color: #f9f3e7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial {
+    margin-bottom: 10px;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-form {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    header, footer {
+      font-size: 14px;
+    }
+  
+    .hero-section {
+      font-size: 24px;
+    }
+  
+    ul {
+      padding-left: 20px;
+    }
+  
+    .testimonial {
+      font-size: 14px;
+    }
+
+    .contact-form {
+        font-size: 14px;
+      }
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Background color with transparency */
+  }
+  
+  .modal-content {
+    position: relative;
+    width: 400px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .property-list ul li {
+    margin-bottom: 10px; /* Adjust the margin value as needed */
+  }
